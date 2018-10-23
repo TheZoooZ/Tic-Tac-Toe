@@ -23,5 +23,16 @@
     <ClInclude Include="MyForm.h">
       <Filter>Pliki nagłówkowe</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="O.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
+    <Image Include="X.png">
+      <Filter>Pliki zasobów</Filter>
+    </Image>
   </ItemGroup>
 </Project>

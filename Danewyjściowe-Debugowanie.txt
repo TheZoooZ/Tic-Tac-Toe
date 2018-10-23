@@ -1,0 +1,94 @@
+﻿„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Users\tfala\Desktop\Tic-Tac-Toe\Debug\Tic-Tac-Toe.exe”. Symbole zostały załadowane.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\ntdll.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\mscoree.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\kernel32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\KernelBase.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\ucrtbased.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\vcruntime140d.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\msvcp140d.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\advapi32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\msvcrt.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\sechost.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\rpcrt4.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\sspicli.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\cryptbase.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\bcryptprimitives.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\shlwapi.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\combase.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\ucrtbase.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\gdi32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\gdi32full.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\msvcp_win.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\user32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\win32u.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\imm32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\kernel.appcore.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\version.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\msvcr120_clr0400.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\psapi.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): zwolniono „C:\Windows\SysWOW64\psapi.dll”
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\277a04b4ec834bb70c1bd343b14ebd3a\mscorlib.ni.dll”. 
+Wątek 0x254c zakończył działanie z kodem 0 (0x0).
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: DefaultDomain): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\ole32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\uxtheme.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: DefaultDomain): załadowano „C:\Users\tfala\Desktop\Tic-Tac-Toe\Debug\Tic-Tac-Toe.exe”. Symbole zostały załadowane.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\oleaut32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System\d805a7881a24de85782fa1791ef05f3d\System.ni.dll”. 
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: DefaultDomain): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Drawing\b0606862850100a70cfd1278da36e4c3\System.Drawing.ni.dll”. 
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\0e96e70fa7fd4b701892862957ad96d9\System.Windows.Forms.ni.dll”. 
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Core\1be8b02f4c7ab0c43558ff9d7d2ffa33\System.Core.ni.dll”. 
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Configuration\8846731d994fa859cd9667d09fae3b47\System.Configuration.ni.dll”. 
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xml\0dc3063f4d775efe036233e51625f0a9\System.Xml.ni.dll”. 
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll”. Pominięto ładowanie symboli. Moduł jest zoptymalizowany i włączono opcję debugera „Tylko mój kod”.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\shell32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\cfgmgr32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\SHCore.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\windows.storage.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\profapi.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\powrprof.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\fltLib.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\bcrypt.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\cryptsp.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\rsaenh.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.345_none_40ff7c964511edcf\comctl32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.345_none_42efd13044e18c5e\comctl32.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\dwmapi.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\msctf.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.345_none_73dac4159f74062c\GdiPlus.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\DWrite.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\WindowsCodecs.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\TextInputFramework.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\CoreMessaging.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\CoreUIComponents.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\ntmarta.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\WinTypes.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\SysWOW64\WinTypes.dll”. Nie można odnaleźć lub otworzyć pliku PDB.
+„Tic-Tac-Toe.exe” (Win32): zwolniono „C:\Windows\SysWOW64\WinTypes.dll”
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll”. Moduł został skompilowany bez symboli.
+„Tic-Tac-Toe.exe” (Win32): załadowano „C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll”. Moduł został skompilowany bez symboli.
+„Tic-Tac-Toe.exe” (Win32): zwolniono „C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll”
+„Tic-Tac-Toe.exe” (CLR v4.0.30319: Tic-Tac-Toe.exe): załadowano „C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll”. Moduł został skompilowany bez symboli.
+Wątek 0x3354 zakończył działanie z kodem 0 (0x0).
+Wątek 0x544 zakończył działanie z kodem 0 (0x0).
+Wątek 0x3744 zakończył działanie z kodem 0 (0x0).
+Wątek 0x3768 zakończył działanie z kodem 0 (0x0).
+Wątek 0x1d88 zakończył działanie z kodem 0 (0x0).
+Wątek 0x1ba0 zakończył działanie z kodem 0 (0x0).
+Wątek 0x3874 zakończył działanie z kodem 0 (0x0).
+Wątek 0xf4 zakończył działanie z kodem 0 (0x0).
+Wątek 0x10dc zakończył działanie z kodem 0 (0x0).
+Wątek 0x3bf4 zakończył działanie z kodem 0 (0x0).
+Wątek 0x15d4 zakończył działanie z kodem 0 (0x0).
+Wątek 0x2cc0 zakończył działanie z kodem 0 (0x0).
+Wątek 0xb1c zakończył działanie z kodem 0 (0x0).
+Program „[9060] Tic-Tac-Toe.exe” zakończył działanie z kodem 0 (0x0).

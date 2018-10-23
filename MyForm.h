@@ -479,8 +479,8 @@ namespace TicTacToe {
 	private: System::Void FormLoad(System::Object^  sender, System::EventArgs^ e) {
 		groupBox1->Visible = false;
 		groupBox2->Visible = false;
-		Picture_Player1->Image = Image::FromFile("img/O.png");
-		Picture_Player2->Image = Image::FromFile("img/X.png");
+		Picture_Player1->Image = Image::FromFile("O.png");
+		Picture_Player2->Image = Image::FromFile("X.png");
 		TextBox_Player1->Text = Convert::ToString(player1_score);
 		TextBox_Player2->Text = Convert::ToString(player2_score);
 	}
@@ -494,10 +494,10 @@ namespace TicTacToe {
 		groupBox2->Visible = true;
 		New_Single_Game();
 	}
-			 //
-			 //		Fields and it's events 
-			 //		Changing turn between X/O, locking fields etc
-			 //
+//
+//		Fields and it's events 
+//		Changing turn between X/O, locking fields etc
+//
 	private: System::Void Click_p1(System::Object^  sender, System::EventArgs^  e) {
 		ClickingXO_Events(p1, _p[0]);
 	}
@@ -534,7 +534,8 @@ namespace TicTacToe {
 				 Menu_1v1_NewGame->CheckState = CheckState::Unchecked;
 				 Menu_Single_NewGame->CheckState = CheckState::Checked;
 
-				 label_Player2->Text = "Computer";
+				 label_Player1->Text = "Player";
+				 label_Player2->Text = "Mr Core";
 				 CleanArray();
 				 turn = true;
 
@@ -544,10 +545,10 @@ namespace TicTacToe {
 				 TextBox_Player2->Text = Convert::ToString(player1_score);
 
 				 if (turn) {
-					 Picture_Turn->Image = Image::FromFile("img/O.png");
+					 Picture_Turn->Image = Image::FromFile("O.png");
 				 }
 				 else {
-					 Picture_Turn->Image = Image::FromFile("img/X.png");
+					 Picture_Turn->Image = Image::FromFile("X.png");
 				 }
 
 			 }
@@ -557,16 +558,17 @@ namespace TicTacToe {
 
 				 CleanArray();					//Unlocking fields, cleaning array
 				 turn = rand() % 2;				//Choosing between X and O by random mode
-				 label_Player2->Text = "Player 2";				//In this case Player 2 is just Player 2 :D
+				 label_Player1->Text = "Player O";
+				 label_Player2->Text = "Player X";				//In this case Player 2 is just Player 2 :D
 				 player1_score = player2_score = 0;				 //Cleaning score
 				 TextBox_Player1->Text = Convert::ToString(player1_score);	//Displaying it on screen
 				 TextBox_Player2->Text = Convert::ToString(player1_score);
 				 //Displaying turn
 				 if (turn) {
-					 Picture_Turn->Image = Image::FromFile("img/O.png");
+					 Picture_Turn->Image = Image::FromFile("O.png");
 				 }
 				 else {
-					 Picture_Turn->Image = Image::FromFile("img/X.png");
+					 Picture_Turn->Image = Image::FromFile("X.png");
 				 }
 			 }
 			 //It allows X/O drawing   
@@ -574,33 +576,39 @@ namespace TicTacToe {
 				 if (Menu_1v1_NewGame->CheckState == CheckState::Checked) {
 					 switch (turn) {
 					 case 1:
-						 p->Image = Image::FromFile("img/O.png");
+						 p->Image = Image::FromFile("O.png");
 						 p->Enabled = false;
 
 						 val = 'o';
-						 turn = !turn;
-						 WinEvent();
+						 if (winner() != NULL) {
+							 WinEvent();
+						 }
+						 else {
+							 turn = !turn;
 
-						 Picture_Turn->Image = Image::FromFile("img/X.png");
+							 Picture_Turn->Image = Image::FromFile("X.png");
+						 }
 						 break;
-
 					 case 0:
-						 p->Image = Image::FromFile("img/X.png");
+						 p->Image = Image::FromFile("X.png");
 						 p->Enabled = false;
 
 						 val = 'x';
-						 turn = !turn;
-						 WinEvent();
+						 if (winner() != NULL) {
+							 WinEvent();
+						 }
+						 else {
+							 turn = !turn;
 
-
-						 Picture_Turn->Image = Image::FromFile("img/O.png");
+							 Picture_Turn->Image = Image::FromFile("O.png");
+						 }
 						 break;
 					 }
 				 }
 				 else if (Menu_Single_NewGame->CheckState == CheckState::Checked) {
 					 if (turn) {
 						 //Player move
-						 p->Image = Image::FromFile("img/O.png");
+						 p->Image = Image::FromFile("O.png");
 						 p->Enabled = false;
 						 val = 'o';
 
@@ -608,33 +616,24 @@ namespace TicTacToe {
 							 WinEvent();
 						 else {
 							 turn = !turn;
-							 Picture_Turn->Image = Image::FromFile("img/X.png");
+							 Picture_Turn->Image = Image::FromFile("X.png");
 
 							 //Ai move
 							 AImove(_p);
 
-							 DrawXevent(p1, _p[0]);
-							 DrawXevent(p2, _p[1]);
-							 DrawXevent(p3, _p[2]);
-							 DrawXevent(p4, _p[3]);
-							 DrawXevent(p5, _p[4]);
-							 DrawXevent(p6, _p[5]);
-							 DrawXevent(p7, _p[6]);
-							 DrawXevent(p8, _p[7]);
-							 DrawXevent(p9, _p[8]);
-
+							 JustDrawingMyself();
 
 							 if (winner() != NULL)
 								 WinEvent();
 							 else {
 								 turn = !turn;
-								 Picture_Turn->Image = Image::FromFile("img/O.png");
+								 Picture_Turn->Image = Image::FromFile("O.png");
 							 }
 						 }
 					 }
 				 }
 			 }
-			 //Describes an action when you start new Round, without loss any points
+			 //Describes an action when you start new Round (without loss any points)
 			 void NewRound() {
 				 if (player1_score == 3 && player2_score == 3) {
 					 MessageBox::Show("Congratulations! It's draw", "Form Closing", MessageBoxButtons::OK, MessageBoxIcon::Information);
@@ -643,7 +642,6 @@ namespace TicTacToe {
 					 }
 					 else if (Menu_1v1_NewGame->CheckState == CheckState::Checked) {
 						 New_1v1_Game();
-
 					 }
 				 }
 				 else if (player1_score == 3 || player2_score == 3) {
@@ -655,7 +653,6 @@ namespace TicTacToe {
 						 else if (Menu_1v1_NewGame->CheckState == CheckState::Checked) {
 							 New_1v1_Game();
 						 }
-
 					 }
 					 else if (player2_score == 3) {
 						 MessageBox::Show("Congratulations! X wins the game!");
@@ -677,20 +674,11 @@ namespace TicTacToe {
 							 CleanArray();
 							 AImove(_p);
 
-							 DrawXevent(p1, _p[0]);
-							 DrawXevent(p2, _p[1]);
-							 DrawXevent(p3, _p[2]);
-							 DrawXevent(p4, _p[3]);
-							 DrawXevent(p5, _p[4]);
-							 DrawXevent(p6, _p[5]);
-							 DrawXevent(p7, _p[6]);
-							 DrawXevent(p8, _p[7]);
-							 DrawXevent(p9, _p[8]);
+							 JustDrawingMyself();
 
 							 turn = !turn;
-							 Picture_Turn->Image = Image::FromFile("img/O.png");
+							 Picture_Turn->Image = Image::FromFile("O.png");
 						 }
-
 					 }
 				 }
 			 }
@@ -711,10 +699,10 @@ namespace TicTacToe {
 				 }
 
 				 if (turn) {
-					 Picture_Turn->Image = Image::FromFile("img/O.png");
+					 Picture_Turn->Image = Image::FromFile("O.png");
 				 }
 				 else {
-					 Picture_Turn->Image = Image::FromFile("img/X.png");
+					 Picture_Turn->Image = Image::FromFile("X.png");
 				 }
 			 }
 			 //Returns MessageBox and score
@@ -724,12 +712,14 @@ namespace TicTacToe {
 					 MessageBox::Show("O Wins!");
 					 ++player1_score;
 					 TextBox_Player1->Text = Convert::ToString(player1_score);
+					 turn = !turn;
 					 NewRound();
 					 break;
 				 case 'x':
 					 MessageBox::Show("X Wins!");
 					 ++player2_score;
 					 TextBox_Player2->Text = Convert::ToString(player2_score);
+					 turn = !turn;
 					 NewRound();
 					 break;
 				 case 'd':
@@ -745,7 +735,6 @@ namespace TicTacToe {
 				 }
 
 			 }
-
 			 //Returns winners (turn = 1 -> O wins; turn = 0 -> X wins)
 			 char winner() {
 				 switch (xyWin(_p)) {
@@ -798,19 +787,30 @@ namespace TicTacToe {
 				 }
 			 }
 
-			 //			MinMax  AI
+			 //			AI
 
 			 //This function draws X and secures current field from accidental user's click
 			 void DrawXevent(PictureBox^ pic, char arg) {
 				 if (arg == 'x') {
-					 pic->Image = Image::FromFile("img/x.png");
+					 pic->Image = Image::FromFile("x.png");
 					 pic->Enabled = false;
 				 }
 				 else {}
 
 
 			 }
-
+			 //Just for making the code more clear
+			 void JustDrawingMyself() {
+				 DrawXevent(p1, _p[0]);
+				 DrawXevent(p2, _p[1]);
+				 DrawXevent(p3, _p[2]);
+				 DrawXevent(p4, _p[3]);
+				 DrawXevent(p5, _p[4]);
+				 DrawXevent(p6, _p[5]);
+				 DrawXevent(p7, _p[6]);
+				 DrawXevent(p8, _p[7]);
+				 DrawXevent(p9, _p[8]);
+			 }
 			 //This function takes a decision if algorythm is able to attack from current position
 			 bool xySemiWin(char arr[], int numberOfArray) {
 				 switch (numberOfArray) {
@@ -941,7 +941,7 @@ namespace TicTacToe {
 					 return false;
 				 }
 			 }
-
+			 //This function is responsible of taking turn by x
 			 void AImove(char fields[]) {
 
 				 for (int i = 0; i < 9; i++) {
@@ -1037,7 +1037,7 @@ namespace TicTacToe {
 					 }
 				 }
 			 }
-
+			 //Bool function predicting O move. It returns +10 (O loss) -10 (O win). char 'b' here...
 			 int prediction(char field) {
 				 for (int i = 0; i < 9; i++) {
 					 if (testboard[i] == 'n') {
