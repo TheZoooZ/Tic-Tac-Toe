@@ -526,10 +526,8 @@ namespace TicTacToe {
 		ClickingXO_Events(p9, _p[8]);
 	}
 
-
-			 //
 			 //	Logic of the game (Looking for draw/win/new game/new round...)
-			 //
+
 			 void New_Single_Game() {
 				 Menu_1v1_NewGame->CheckState = CheckState::Unchecked;
 				 Menu_Single_NewGame->CheckState = CheckState::Checked;
@@ -571,7 +569,8 @@ namespace TicTacToe {
 					 Picture_Turn->Image = Image::FromFile("X.png");
 				 }
 			 }
-			 //It allows X/O drawing   
+			 //It allows X/O drawing
+			 //Contains WinEvent(), AImove(), JustDrawingMyself()
 			 void ClickingXO_Events(PictureBox^ p, char &val) {
 				 if (Menu_1v1_NewGame->CheckState == CheckState::Checked) {
 					 switch (turn) {
@@ -633,7 +632,9 @@ namespace TicTacToe {
 					 }
 				 }
 			 }
-			 //Describes an action when you start new Round (without loss any points)
+			 //Starts new round. If someone has three points MessageBox pops out with a winner and new game starts
+			 //In 1 v Mr Core game, if turn == false it lets Mr Core to start new tour
+			 //Contains New_Single_Game(), New_1v1_Game(), AImove(), CleanArray(), JustDrawingMyself()
 			 void NewRound() {
 				 if (player1_score == 3 && player2_score == 3) {
 					 MessageBox::Show("Congratulations! It's draw", "Form Closing", MessageBoxButtons::OK, MessageBoxIcon::Information);
@@ -705,7 +706,8 @@ namespace TicTacToe {
 					 Picture_Turn->Image = Image::FromFile("X.png");
 				 }
 			 }
-			 //Returns MessageBox and score
+			 //Shows up MessageBox, adds points, turns the turn
+			 //Contains winner(), NewRound()
 			 void WinEvent() {
 				 switch (winner()) {
 				 case 'o':
@@ -735,7 +737,8 @@ namespace TicTacToe {
 				 }
 
 			 }
-			 //Returns winners (turn = 1 -> O wins; turn = 0 -> X wins)
+			 //Returns winners (turn = 1 -> O wins; turn = 0 -> X wins) or draw.
+			 //Contains xyWin(), isDraw()
 			 char winner() {
 				 switch (xyWin(_p)) {
 				 case 1:
@@ -775,7 +778,7 @@ namespace TicTacToe {
 					 return false;
 				 }
 			 }
-			 //Returns draw statement (true/false)
+			 //Returns draw(tie) statement (true/false)
 			 bool isDraw(char arr[]) {
 				 if (arr[0] != 'n' && arr[1] != 'n' && arr[2] != 'n' &&
 					 arr[3] != 'n' && arr[4] != 'n' && arr[5] != 'n' &&
@@ -796,10 +799,8 @@ namespace TicTacToe {
 					 pic->Enabled = false;
 				 }
 				 else {}
-
-
 			 }
-			 //Just for making the code more clear
+			 //Just for making the code more clear. DrawXevent function for each of 9 containers
 			 void JustDrawingMyself() {
 				 DrawXevent(p1, _p[0]);
 				 DrawXevent(p2, _p[1]);
@@ -943,11 +944,17 @@ namespace TicTacToe {
 			 }
 			 //This function is responsible of taking turn by x
 			 void AImove(char fields[]) {
-
+				 /*
+				 AI uses three arrays.
+				 > _p array that is main array.
+				 > testboard array is using for predictions
+				 > tab array is using for taking final decisions as block or attack
+				 */
 				 for (int i = 0; i < 9; i++) {
 					 testboard[i] = fields[i];
 				 }
-				 //If alghoritm has an oportunity to attack without loss, it just do it
+
+				 //If algorithm has an oportunity to attack without loss, it just do it
 				 for (int i = 0; i < 9; i++) {
 					 if (testboard[i] == 'n') {
 						 testboard[i] = 'x';
@@ -974,6 +981,11 @@ namespace TicTacToe {
 				 if (testboard[4] == 'n') {
 					 _p[4] = 'x';
 					 goto pos;
+				 }
+				 //That is only one scenario that algorithm cannot predict because of not so deep algorithm's predictions
+				 else if (testboard[2] == 'o' && testboard[4] == 'x' && testboard[6] == 'o' && testboard[7] == 'n') {	//			o
+					 _p[7] = 'x';																						//		x
+					 goto pos;																							//	o	x
 				 }
 				 else {
 
@@ -1030,7 +1042,7 @@ namespace TicTacToe {
 						 }
 					 }
 
-					 //Cleaning background array
+					 //Flushing tab array
 				 pos:
 					 for (int i = 0; i < 9; i++) {
 						 tab[i] = 'n';
