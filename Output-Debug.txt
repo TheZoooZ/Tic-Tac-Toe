@@ -1,0 +1,94 @@
+﻿'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Users\tfala\Desktop\Tic-Tac-Toe\Debug\Tic-Tac-Toe.exe'. Symbols loaded.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\mscoree.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscoreei.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\clr.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcr120_clr0400.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\psapi.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\psapi.dll'
+The thread 0x1a98 has exited with code 0 (0x0).
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\mscorlib\277a04b4ec834bb70c1bd343b14ebd3a\mscorlib.ni.dll'. 
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_32\mscorlib\v4.0_4.0.0.0__b77a5c561934e089\mscorlib.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\Users\tfala\Desktop\Tic-Tac-Toe\Debug\Tic-Tac-Toe.exe'. Symbols loaded.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\clrjit.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\diasymreader.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System\d805a7881a24de85782fa1791ef05f3d\System.ni.dll'. 
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: DefaultDomain): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Drawing\b0606862850100a70cfd1278da36e4c3\System.Drawing.ni.dll'. 
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Windows.Forms\0e96e70fa7fd4b701892862957ad96d9\System.Windows.Forms.ni.dll'. 
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Core\1be8b02f4c7ab0c43558ff9d7d2ffa33\System.Core.ni.dll'. 
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Configuration\8846731d994fa859cd9667d09fae3b47\System.Configuration.ni.dll'. 
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\assembly\NativeImages_v4.0.30319_32\System.Xml\0dc3063f4d775efe036233e51625f0a9\System.Xml.ni.dll'. 
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll'. Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\windows.storage.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\profapi.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\powrprof.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\fltLib.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcrypt.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptsp.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rsaenh.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.17134.345_none_40ff7c964511edcf\comctl32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.17134.345_none_42efd13044e18c5e\comctl32.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\WinSxS\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.17134.345_none_73dac4159f74062c\GdiPlus.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\DWrite.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WindowsCodecs.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextInputFramework.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreUIComponents.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntmarta.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. Cannot find or open the PDB file.
+'Tic-Tac-Toe.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\WinTypes.dll'
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+'Tic-Tac-Toe.exe' (Win32): Loaded 'C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+'Tic-Tac-Toe.exe' (Win32): Unloaded 'C:\Windows\Microsoft.NET\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll'
+'Tic-Tac-Toe.exe' (CLR v4.0.30319: Tic-Tac-Toe.exe): Loaded 'C:\WINDOWS\Microsoft.Net\assembly\GAC_MSIL\mscorlib.resources\v4.0_4.0.0.0_pl_b77a5c561934e089\mscorlib.resources.dll'. Module was built without symbols.
+The thread 0x2050 has exited with code 0 (0x0).
+The thread 0x2994 has exited with code 0 (0x0).
+The thread 0x1678 has exited with code 0 (0x0).
+The thread 0x3f8 has exited with code 0 (0x0).
+The thread 0x1144 has exited with code 0 (0x0).
+The thread 0x880 has exited with code 0 (0x0).
+The thread 0x4f8 has exited with code -1073741749 (0xc000004b).
+The thread 0x908 has exited with code 0 (0x0).
+The thread 0x2600 has exited with code 0 (0x0).
+The thread 0x1a0 has exited with code 0 (0x0).
+The thread 0x804 has exited with code 0 (0x0).
+The thread 0x620 has exited with code 0 (0x0).
+The thread 0x1a78 has exited with code 0 (0x0).
+The program '[8836] Tic-Tac-Toe.exe' has exited with code 0 (0x0).

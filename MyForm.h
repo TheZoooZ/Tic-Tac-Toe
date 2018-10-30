@@ -3,6 +3,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <random>
 
 
 namespace TicTacToe {
@@ -440,12 +441,13 @@ namespace TicTacToe {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(309, 316);
+			this->ClientSize = System::Drawing::Size(309, 30);
 			this->Controls->Add(this->groupBox2);
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->menuStrip1);
 			this->MainMenuStrip = this->menuStrip1;
 			this->Name = L"MyForm";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterParent;
 			this->Text = L"Tic Tac Toe";
 			this->Load += gcnew System::EventHandler(this, &MyForm::FormLoad);
 			this->menuStrip1->ResumeLayout(false);
@@ -477,6 +479,7 @@ namespace TicTacToe {
 		MessageBox::Show("Tomasz Falarz\nLk1");
 	}
 	private: System::Void FormLoad(System::Object^  sender, System::EventArgs^ e) {
+		MyForm::Size = System::Drawing::Size(325, 69);
 		groupBox1->Visible = false;
 		groupBox2->Visible = false;
 		Picture_Player1->Image = Image::FromFile("O.png");
@@ -485,11 +488,13 @@ namespace TicTacToe {
 		TextBox_Player2->Text = Convert::ToString(player2_score);
 	}
 	private: System::Void Menu_1v1_NewGame_Click(System::Object^  sender, System::EventArgs^  e) {
+		MyForm::Size = System::Drawing::Size(325, 355);
 		groupBox1->Visible = true;
 		groupBox2->Visible = true;
 		New_1v1_Game();
 	}
 	private: System::Void Click_SinglePlayer(System::Object^  sender, System::EventArgs^  e) {
+		MyForm::Size = System::Drawing::Size(325, 355);
 		groupBox1->Visible = true;
 		groupBox2->Visible = true;
 		New_Single_Game();
@@ -535,7 +540,9 @@ namespace TicTacToe {
 				 label_Player1->Text = "Player";
 				 label_Player2->Text = "Mr Core";
 				 CleanArray();
-				 turn = true;
+
+				 srand(time(NULL));
+				 turn = rand() % 2;
 
 				 player1_score = player2_score = 0;
 
@@ -547,6 +554,9 @@ namespace TicTacToe {
 				 }
 				 else {
 					 Picture_Turn->Image = Image::FromFile("X.png");
+					 AImove(_p);
+					 JustDrawingMyself();
+					 turn = !turn;
 				 }
 
 			 }
@@ -555,6 +565,7 @@ namespace TicTacToe {
 				 Menu_1v1_NewGame->CheckState = CheckState::Checked;
 
 				 CleanArray();					//Unlocking fields, cleaning array
+				 srand(time(NULL));
 				 turn = rand() % 2;				//Choosing between X and O by random mode
 				 label_Player1->Text = "Player O";
 				 label_Player2->Text = "Player X";				//In this case Player 2 is just Player 2 :D
